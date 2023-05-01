@@ -85,7 +85,7 @@
  *          `-----'   `--------------------'            `--------------------'   `-----'
  */
 			bindings = <
-	&trans		&trans		&kp LBKT	&kp RBKT	&kp BSLH				&trans			&kp PG_UP		&kp UP		&kp PG_DOWN		&trans
+	&trans		&trans		&kp LBKT	&kp RBKT	&kp BSLH				&trans			&kp PG_UP		&kp UP		&kp PG_DN		&trans
 	&kp TILDE	&kp GRAVE	&kp LPAR	&kp RPAR	&kp PIPE				&kp HOME		&kp LEFT		&kp DOWN	&kp RIGHT		&kp END
 	&trans		&trans		&kp LBRC	&kp RBRC	&kp COLON				&trans			&trans			&trans		&trans			&trans
 	&kp N1		&lt 2 BSPC	&kp ESC		&kp TAB		&kp N2			&kp N3	&kp RET		&kp TAB 	&lt 1 SPACE	&kp N4
@@ -93,6 +93,5 @@
 
 			sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN &inc_dec_kp TAB LS(TAB)>;
 		};
-
 	};
 };
